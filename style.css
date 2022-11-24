@@ -1,0 +1,27 @@
+.owl-item {background:powderblue; border-radius: 50px;}
+
+.item{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; 
+}
+.owl-carousel{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; 
+}
+
+.owl-theme .owl-dots .owl-dot{ display:none!important;}
+
