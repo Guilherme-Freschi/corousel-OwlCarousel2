@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css" />
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js">
+    </script>
+     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
+       </script>
+    <title>Owl Carousel 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>carousel</h1>
+    <div class="owl-carousel owl-theme owl-loaded owl-drag">
+      <div class="item">Vacina</div>
+      <div class="item">Feira</div>
+      <div class="item">Sugestão / denuncia</div>
+      <div class="item">teste</div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="dist/owl.carousel.min.js"></script>
+    <script>
+      var owl = $(".owl-carousel");
+      owl.owlCarousel({
+        items: 3,
+        // items change number for slider display on desktop
+        navigation: false,
+        nav: true,
+        autoWidth: false,
+        loop: true,
+        responsiveClass:true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: 
+        {
+            0: {
+                items : 1,
+                nav:true
+            },
+            768: {
+                items : 3
+            },
+            1200: {
+                items : 3,
+            }
+
+        }
+      });
+    </script>
+  </body>
+</html>

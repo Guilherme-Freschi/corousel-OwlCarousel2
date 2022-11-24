@@ -1,0 +1,109 @@
+.fundo-centro {
+    background: url(../../assets/images/fundo-animal.png) center no-repeat;
+    height: 893px;
+  }
+  
+  .distancia {
+    padding-top: 480px;
+  }
+  
+  .titulo-centro span {
+    text-align: left;
+    font: normal normal bold 45px/58px Montserrat;
+    letter-spacing: -0.72px;
+    color: #FFFFFF;
+    padding: 50px 0px 0px 0px;
+  }
+  
+  .titulo-centro {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+  }
+  
+  .container .centro {
+    margin-top: 50px;
+  }
+  
+  .item {
+    border: 3px solid #FFFFFF;
+    border-radius: 53px;
+    background-color: #0DAFB4;
+  }
+  
+  .tamanho1 {
+    width: 260px;
+    height: 80px;
+  }
+  
+  .tamanho2 {
+    width: 350px;
+    height: 80px;
+  }
+  
+  .tamanho3 {
+    width: 470px;
+    height: 80px;
+  }
+  
+  .tamanho4 {
+    width: 330px;
+    height: 80px;
+  }
+  
+  a:focus, a:hover {
+    text-decoration: none;
+  }
+  
+  .item a {
+    display: flex;
+    padding: 15px 55px 0px 0px;
+  }
+  
+  .item img {
+    height: 40px;
+  }
+  
+  .item p {
+    text-align: left;
+    font: normal normal 900 26px/38px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  
+  .owl-next {
+    position: relative;
+    left: 630px;
+    bottom: 85px;
+    background: transparent !important;
+  }
+  
+  .owl-prev {
+    position: relative;
+    right: 630px;
+    bottom: 85px;
+    background: transparent !important;
+  }
+  
+  .owl-dots {
+    display: none;
+  }
+  
+  .owl-nav {
+    display: block;
+  }
+  
+  @media (max-width: 1280px) {
+  
+    .owl-next {
+      left: 550px;
+      bottom: 90px;
+    }
+  
+    .owl-prev {
+      right: 540px;
+      bottom: 90px;
+    }
+  }
